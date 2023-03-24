@@ -1,5 +1,5 @@
 ﻿using static EmpWageComputationProblemWithOOP.EmpWage;
-using static EmpWageComputationProblemWithOOP.EmpWageCode;
+
 
 namespace EmpWageComputationProblemWithOOP
 {
