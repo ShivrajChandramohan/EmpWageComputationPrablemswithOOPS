@@ -1,13 +1,12 @@
 ﻿using static EmpWageComputationProblemWithOOP.EmpWage;
 
-
 namespace EmpWageComputationProblemWithOOP
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            List<ParentComputeEmpWage> companies = new List<ParentComputeEmpWage>();
+            List<EmpWage> companies = new List<EmpWage>();
 
             Console.WriteLine("Welcome to Employee Wage Computation Program On Master Branch");
             Console.WriteLine("----------------------------------------------------------------------");
@@ -22,9 +21,9 @@ namespace EmpWageComputationProblemWithOOP
                 if (choice == 1)
                 {
                     Console.WriteLine("Enter the details:");
-                    companies.Add(new CompanyEmpWage());
+                    companies.Add(new EmpWage());
                     Console.WriteLine("_________________________________________________");
-                    companies[companies.Count - 1].EmpWageBuilder();
+                   
                 }
                 else if (choice == 2)
                 {
